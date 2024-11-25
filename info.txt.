@@ -19,6 +19,6 @@ int main() {
     // if neither a nor b are the largest, c is the largest
     else 
         cout << "Largest number: " << c;
-  
+  //if all numbers are equal then it will an error
     return 0;
 }
