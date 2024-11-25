@@ -3,22 +3,22 @@ using namespace std;
 
 int main() {
     
-    double n1, n2, n3;
+    double a,b,c;
 
     cout << "Enter three numbers: ";
-    cin >> n1 >> n2 >> n3;
+    cin >> a >> b >> c;
 
-    // check if n1 is the largest number
-    if(n1 >= n2 && n1 >= n3)
-        cout << "Largest number: " << n1;
+    // check if a is the largest number
+    if(a >= b && a >= c)
+        cout << "Largest number: " << a;
 
-    // check if n2 is the largest number
-    else if(n2 >= n1 && n2 >= n3)
-        cout << "Largest number: " << n2;
+    // check if b is the largest number
+    else if(b >= a && b >= c)
+        cout << "Largest number: " << c;
     
-    // if neither n1 nor n2 are the largest, n3 is the largest
+    // if neither a nor b are the largest, c is the largest
     else 
-        cout << "Largest number: " << n3;
+        cout << "Largest number: " << c;
   
     return 0;
 }
