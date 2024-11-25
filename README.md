@@ -1,4 +1,4 @@
-# Advance <ins>calculator</ins>
+# <ins>Advance calculator</ins>
 ***Advance calculator created in ict lab.It has many features eg.add,subtract,multiply,divide and squareroot.***
 ## <ins>Features</ins>
 1.Add
